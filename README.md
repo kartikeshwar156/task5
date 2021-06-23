@@ -12,7 +12,7 @@
 
     <div class="photo"><img  src="images/grid33-final.PNG" rel="stylesheet"></div>
     
-    <div class="Myresultfinal"><p class="caption" id="Myresult"><strong>Convert the grid in the given image</p></strong></p></div>
+    <div class="Myresultfinal"><p class="caption" id="Myresult"><strong>Convert the grid in the given image</strong></p></div>
     
 
 
