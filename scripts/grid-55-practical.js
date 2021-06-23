@@ -71,7 +71,7 @@ function timeToString(time) {
   
     let formattedMM = mm.toString().padStart(2, "0");
     let formattedSS = ss.toString().padStart(2, "0");
-    let formattedMS = ms.toString().padStart(2, "0");
+    let formattedMS = ms.toString().padStart(3, "0");
     let formattedHH = hh.toString().padStart(2, "0");
     return `${formattedHH}:${formattedMM}:${formattedSS}:${formattedMS}`;
   }
