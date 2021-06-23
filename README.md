@@ -1,1 +1,31 @@
 # task5
+
+<html>
+  <head>
+    
+    <link href="styles/stop-watch.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>My test page</title>
+  </head>
+  <body>
+
+    <div class="stopwatch">
+      <h1 class="head">MY STOPWATCH</h1>
+      <div class="cicles">
+      <span class="time" id="display" >00:00:00</span>
+      </div>
+
+      <div class="controls">
+      
+      <button class="buttonPlay" ><img img id="playButton" src="images/start-button.jpg"> <img id="pauseButton" src="images/pausebutton.jpg"></button>
+      <button class="buttonReset" id="resetButton">
+        <img src="images/reset button.jpg" />
+      </button>
+      </div>
+
+    </div>
+
+    <script src="scripts/stop-watch.js"></script>
+
+  </body>
+</html> 
